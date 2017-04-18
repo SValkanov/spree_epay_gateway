@@ -27,7 +27,7 @@ class EpayFormParams
   end
 
   def page
-    'paylogin'#'credit_paydirect'
+    'credit_paydirect'#'paylogin'#'credit_paydirect'
   end
 
   def default_params
