@@ -30,17 +30,14 @@ class Spree::Gateway::EpayBg < Spree::Gateway
   end
 
   def capture(*)
-    abort('capture').inspect
     simulated_successful_billing_response
   end
 
   def cancel(*)
-    abort('cancel').inspect
     simulated_successful_billing_response
   end
 
   def void(*)
-    abort('void').inspect
     simulated_successful_billing_response
   end
 
@@ -49,7 +46,6 @@ class Spree::Gateway::EpayBg < Spree::Gateway
   end
 
   def credit(*)
-    abort('credit').inspect
     simulated_successful_billing_response
   end
 
